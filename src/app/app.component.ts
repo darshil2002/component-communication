@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title :any;
-
+  x:any;
   myAppComponentData='darshil';
   // componentOneData(data:any){
   //   this.title = Object.values(data)
@@ -16,6 +16,7 @@ export class AppComponent {
   // }
   mySimpleFunc(data:any){
     console.log(data)
+    this.x=data;
   }
   
 }

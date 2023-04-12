@@ -27,6 +27,6 @@ export class ComponentOneComponent {
   // }
   myFunc(data:any){
     console.log(data);
-    this.myFirstOutput.emit
+    this.myFirstOutput.emit(data)
   }
 }
